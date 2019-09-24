@@ -12,7 +12,7 @@ Install it:
 Pull it into your app. Monkeypatching will happen when the module is evaluated, so import it near the entrypoint.
 
 ```javascript
-import 'promise-with-tracking';
+require('promise-with-tracking');
 ```
 
 Check in on some promise counts in your app:
